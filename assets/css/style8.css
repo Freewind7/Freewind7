@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    width: 1200px;
+    margin: auto;
+}
+
+.top-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: gray;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.nav-content {
+    padding: 10px;
+    text-decoration: none;
+    color: gray;
+}
+
+.main {
+    /* background-color: gray; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.first-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.first-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.first-article {
+    width: 49%;
+    height: 390px;
+}
+
+.second-article {
+    width: 32%;
+    height: 300px;
+}
+
+.first-article-logo {
+    overflow: hidden;
+    width: 100%;
+    border-radius: 5px;
+    background-color: lightgray;
+    box-shadow: 0px 0px 15px 2px lightgray;
+}
+
+.first-article-text {
+    text-align: start;
+    margin: 5px 5px 0px 5px;
+}
+
+.main-logo {
+    width: 100%;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.figure {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.figcaption {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pagination {
+    position: relative;
+    bottom: 0px;
+    left: 480px;
+    margin-top: 30px;
+}
+
+.pagination a {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 0px;
+    text-decoration: none;
+    padding: 10px;
+    float: left;
+    color: #17a2b8;
+}
+
+.pagination a:first-child {
+    border-left: 1px solid gray;
+    border-radius: 4px 0px 0px 4px; 
+}
+
+.pagination a:last-child {
+    border-radius: 0px 4px 4px 0px;
+}
+
+.link-inside {
+    height: 300px;
+    width: 100%;
+    text-decoration: none;
+    position: relative;
+}
+
+.text-img {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(2, 1, 1, 0.3);
+    border: 1px solid rgba(117, 102, 102, 0);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.footer {
+    width: 1200px;
+}
+
+.footer-paragraph {
+    font-size: medium;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 30px;
+    color:rgba(34, 92, 7,1);
+}
+
+.footer-text {
+    font-size: small;
+    font-weight: lighter;
+    text-align: center;
+    margin: 15px 0px 30px 0px;
+    color: rgba(53, 47, 47, 1);
+    word-spacing: 3px;
+}
